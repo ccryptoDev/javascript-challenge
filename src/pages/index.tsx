@@ -1,25 +1,27 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import Header from "../components/Header";
+import Main from "../components/Main";
+import Footer from "../components/Footer";
+import { NextSeo } from "next-seo";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="text-black">
+      <NextSeo
+        title="Home: nine4"
+        description="Welcome to nine4 homepage."
+        canonical="https://nine4-2.vercel.app/"
+        openGraph={{
+          url: "https://nine4-2.vercel.app/",
+        }}
+      />
       <Head>
-        <title>Lexir Frontend Assessment!</title>
-        <meta name="description" content="Lexir Frontend Assessment!" />
+        <title>nine4</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Lexir Frontend Assessment!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{" "}
-          <code className={styles.code}>pages/index.tsx</code>
-        </p>
-      </main>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }

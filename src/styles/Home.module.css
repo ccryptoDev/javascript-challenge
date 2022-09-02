@@ -58,3 +58,7 @@
     filter: invert(1);
   }
 }
+
+.importantPadding {
+  padding: 20px !important;
+}
