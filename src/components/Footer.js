@@ -150,7 +150,7 @@ export default function Footer() {
                   href="/"
                 >
                   <svg
-                    class="w-6 h-6 text-white-400 fill-current"
+                    className="w-6 h-6 text-white-400 fill-current"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512">
                     <path
@@ -165,7 +165,7 @@ export default function Footer() {
                   href="/"
                 >
                   <svg
-                    class="w-6 h-6 text-white-600 fill-current"
+                    className="w-6 h-6 text-white-600 fill-current"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24">
                     <path
@@ -180,7 +180,7 @@ export default function Footer() {
                     href="/"
                   >
                     <svg
-                      class="w-6 h-6 text-white-400 fill-current"
+                      className="w-6 h-6 text-white-400 fill-current"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 496 512">
                       <path
@@ -195,7 +195,7 @@ export default function Footer() {
                     href="/"
                   >
                     <svg
-                      class="w-6 h-6 text-white-500 fill-current"
+                      className="w-6 h-6 text-white-500 fill-current"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 448 512">
                       <path
